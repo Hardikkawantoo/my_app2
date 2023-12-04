@@ -2,18 +2,18 @@
 import './App.css';
 import Navbar from './components/Navbar';
 import TextArea from './components/TestArea';
-import About from './components/AboutUs';
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route
-} from "react-router-dom";
+// import About from './components/AboutUs';
+// import {
+//   BrowserRouter as Router,
+//   Switch,
+//   Route
+// } from "react-router-dom";
 
 function App() {
   return (
     <>
     
-    <Router>
+    {/* <Router> */}
     
 
     
@@ -21,17 +21,17 @@ function App() {
     
     
 
-    <Switch>
+    {/* <Switch>
           <Route exact path="/About" >
             <About />
-          </Route>
+          </Route> */}
           
-          <Route exact path="/">
+          {/* <Route exact path="/"> */}
             <TextArea />
-          </Route>
-        </Switch>
-    
-    </Router>
+          {/* </Route>
+        </Switch> */}
+{/*     
+    </Router> */}
 
   </>
   );
